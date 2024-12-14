@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Project To-Do List</h1>
+
+        <!-- To-Do List Form -->
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter a new task" required />
+            <button type="submit" class="btn">Add Task</button>
+        </form>
+
+        <!-- To-Do List -->
+        <ul id="task-list">
+            <li class="task">
+                <input type="checkbox" id="task1">
+                <label for="task1">Define project goals and objectives</label>
+            </li>
+            <li class="task">
+                <input type="checkbox" id="task2">
+                <label for="task2">Create a project timeline</label>
+            </li>
+            <li class="task">
+                <input type="checkbox" id="task3">
+                <label for="task3">Identify stakeholders and team members</label>
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
